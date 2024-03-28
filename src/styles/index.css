@@ -10,3 +10,53 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.container-1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.heading{
+    color: rgba(231, 44, 44, 0.104)
+}
+.input-container{
+    width: 400px;
+    height: 40px;
+}
+.input{
+    width: 90%;
+    height: 100%
+}
+.add-button{
+    width: 10%;
+    height: 100%;
+}
+.task-list-container{
+    display: flex;
+    width: 400px
+}
+.task-list{
+    padding: 0;
+    width: 400px;
+    height: 40px
+}
+.task-container{
+    width: 400px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.task-name{
+    padding-left: 10%;
+    width: 90%
+}
+.task-delete-button{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0)
+}
+.task-delete-button-container{
+    width: 10%;
+    height: 100%;
+}
